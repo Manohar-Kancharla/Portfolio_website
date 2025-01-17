@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Add spacing between sections */
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+.thankyou-note {
+    margin: 0 auto; /* Center-align horizontally */
+    padding: 0;
+}
+.footer {
+    margin: 0;
+    padding: 0;
+}
+.maindiv {
+    margin: 0;
+    padding: 0;
+    min-height: auto;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Push footer to the bottom if needed */
+}
+
+#dark{
+    margin-bottom: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+

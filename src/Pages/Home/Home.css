@@ -1,0 +1,88 @@
+@media (max-width: 600px) {
+    .container-fluid {
+        width: 100%; /* Ensure it spans the full width */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center the content horizontally */
+        justify-content: center; /* Center the content vertically */
+        background-color: black; /* Ensure full black background */
+    }
+    .home-container h2{
+        font-size: 24px;
+    }
+    .home-container h1{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 600px) {
+    .home-container{
+        height: 300px;
+        color: white;
+        margin-left: 100px;
+        padding: 0%;
+    }
+}
+
+
+
+
+
+
+
+.home-content h2{
+    padding: 5px;
+    padding-top: 70px;
+}
+.home-content h1{
+    padding: 10px;
+    color: #e0b50f;
+}
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    background-color: #1e1e2c;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+    right: 0;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.home-buttons .btn-hire{
+    background-color: #3b8ff3;
+    color: white;
+    width: 160px;
+}
+.home-buttons .btn-hire:hover{
+    background-color: white;
+    color: #3b8ff3;
+    width: 200px;
+    transition: 1s;
+}
+
+.home-buttons .btn-resume{
+    background-color: #f29f67 ;
+    color: white;
+    margin-left: 15px;
+    width: 160px;
+}
+.home-buttons .btn-resume:hover{
+    opacity: 80%;
+    transition: 1s;
+}
+
+/* Dark Mode */
+#dark .about{
+    box-shadow: none;
+}
+#dark .about-content h2{
+    color: #b0a4a4;
+}
